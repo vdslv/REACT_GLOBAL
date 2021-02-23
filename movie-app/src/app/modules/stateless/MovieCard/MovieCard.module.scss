@@ -1,0 +1,51 @@
+@import "src/app/styles/variables";
+
+.card {
+  width: 300px;
+  color: $gray;
+  flex: 0 1 calc(25% - 1em);
+  margin-bottom: 35px;
+  position: relative;
+
+  &__wrapper {
+
+    &__dots {
+      display: none;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background-color: $main-color;
+      width: 14%;
+      height: 8%;
+      position: absolute;
+      top: 4%;
+      right: 4%;
+      cursor: pointer;
+    }
+
+    &:hover .card__wrapper__dots {
+      display: unset;
+    }
+
+    &__image {
+      max-height: 490px;
+      max-width: 300px;
+    }
+  }
+
+  &__content {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    padding: 5px 0;
+  }
+
+  &__year {
+    height: fit-content;
+    padding: 4px 15px;
+    border: 1px solid $gray;
+    border-radius: 10px;
+  }
+}
