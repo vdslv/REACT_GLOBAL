@@ -1,0 +1,36 @@
+@import "src/app/styles/variables";
+
+.btn {
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &__small {
+    padding: 10px 18px;
+  }
+
+  &__large {
+    padding: 15px 35px;
+  }
+
+  &__red {
+    background-color: $light-red;
+    color: $white;
+
+    &:hover {
+      background-color: $gray;
+      color: $light-red;
+    }
+  }
+
+  &__transparent {
+    background-color: rgba(85, 85, 85, 0.7);
+    color: $light-red;
+
+    &:hover {
+      background-color: $light-red;
+      color: $white;
+    }
+  }
+}

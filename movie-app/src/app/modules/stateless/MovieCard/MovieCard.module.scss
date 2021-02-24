@@ -1,8 +1,8 @@
-@import "../../../..../../styles/variables";
+@import "../../../styles/variables";
 
 .card {
   width: 300px;
-  color: $gray;
+  color: $light-gray;
   flex: 0 1 calc(25% - 1em);
   margin-bottom: 35px;
   position: relative;
@@ -42,10 +42,15 @@
     padding: 5px 0;
   }
 
+  &__genre {
+    color: $gray;
+  }
+
   &__year {
+    font-size: 13px;
     height: fit-content;
-    padding: 4px 15px;
+    padding: 3px 15px;
     border: 1px solid $gray;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 }

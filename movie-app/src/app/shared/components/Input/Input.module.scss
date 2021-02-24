@@ -1,0 +1,8 @@
+@import "src/app/styles/variables";
+
+.input {
+
+  &__transparent {
+    background-color: rgba(85, 85, 85, 0.7);
+  }
+}

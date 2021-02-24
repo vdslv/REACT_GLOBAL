@@ -20,7 +20,7 @@ export const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
       <div className={classes.card__content}>
         <div>
           <p className={classes.card__title}>{title}</p>
-          <span>{genre}</span>
+          <span className={classes.card__genre}>{genre}</span>
         </div>
         <span className={classes.card__year}>{year}</span>
       </div>

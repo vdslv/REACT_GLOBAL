@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './DotsIcon.module.scss';
 
 export const DotsIcon = () => (
-  <div className={classes.icon} onClick={() => console.log('DICK')}>
+  <div className={classes.icon} onClick={() => console.log('WORK')}>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="25"
