@@ -12,7 +12,10 @@ export const Input: React.FC<InputProps> = ({ type, placeholder, bg }) => {
     <input
       placeholder={placeholder}
       type={type}
-      className={classes[bg === 'transparent' ? 'input__transparent' : 'input__filled']}
+      className={`
+      ${classes.input}
+      ${classes[bg === 'transparent' ? 'input__transparent' : 'input__filled']}
+      `}
     />
   );
 };

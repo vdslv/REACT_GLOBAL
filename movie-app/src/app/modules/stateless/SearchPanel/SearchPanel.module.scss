@@ -8,4 +8,15 @@
     letter-spacing: 2.2px;
     word-spacing: 2px;
   }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    &__input {
+      width: 100%;
+      margin-right: 30px;
+    }
+  }
 }

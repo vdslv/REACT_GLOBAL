@@ -1,9 +1,13 @@
 import React from 'react';
 import classes from './Banner.module.scss';
 import { Button } from '../../../shared/components/Button/Button';
-import { SearchPanel } from '../../stateless/SearchPanel/SearchPanel';
+import { SearchPanel } from '../SearchPanel/SearchPanel';
 
-export const Banner = () => {
+interface BannerProps {
+  onSearch: (value: string) => any;
+}
+
+export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
   return (
     <div className={classes.banner}>
       <div className={classes.banner__wrapper}>
@@ -17,7 +21,7 @@ export const Banner = () => {
             </Button>
           </div>
           <div className={classes.banner__content__panel}>
-            <SearchPanel />
+            <SearchPanel onSearch={onSearch} />
           </div>
         </div>
       </div>
