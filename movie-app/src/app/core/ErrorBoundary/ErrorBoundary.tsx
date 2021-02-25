@@ -2,22 +2,26 @@ import React, { ErrorInfo } from 'react';
 
 interface ErrorBoundaryState {
   hasError: boolean;
+  errorInfo: ErrorInfo | null;
 }
 
 export class ErrorBoundary extends React.Component<any, ErrorBoundaryState> {
   constructor(props: any) {
     super(props);
-    this.state = { hasError: false };
+    this.state = { hasError: false, errorInfo: null };
   }
 
   static getDerivedStateFromError(error: any) {
     // Update state so the next render will show the fallback UI.
-    return { hasError: true };
+    return { hasError: true, error };
   }
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     // You can also log the error to an error reporting service
     console.log(error, errorInfo);
+    this.setState(() => {
+      return { hasError: true, errorInfo };
+    });
   }
 
   render() {
