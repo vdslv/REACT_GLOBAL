@@ -4,7 +4,7 @@ import { Input } from '../../../shared/components/Input/Input';
 import { Button } from '../../../shared/components/Button/Button';
 
 interface SearchPanelProps {
-  onSearch: (value: any) => any;
+  onSearch: (value: any) => void;
 }
 
 export const SearchPanel: React.FC<SearchPanelProps> = ({ onSearch }) => {

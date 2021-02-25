@@ -10,8 +10,8 @@ interface MainPageState {
   moviesArr: Movie[];
 }
 
-export class MainPage extends React.Component<any, MainPageState> {
-  constructor(props: any) {
+export class MainPage extends React.Component<{}, MainPageState> {
+  constructor(props: {}) {
     super(props);
     this.state = { moviesArr: movies };
   }

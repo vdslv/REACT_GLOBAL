@@ -2,6 +2,13 @@
 
 .input {
   caret-color: white;
+  font-size: 20px;
+  padding: 17px;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 16px;
+    padding: 19px;
+  }
 
   &:focus {
     outline: none;
@@ -9,8 +16,6 @@
 
   &__transparent {
     background-color: rgba(45, 45, 45, 0.8);
-    padding: 17px;
-    font-size: 20px;
     border: none;
     border-radius: $bd-radius-sm;
     width: 100%;

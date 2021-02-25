@@ -4,7 +4,7 @@ import { Button } from '../../../shared/components/Button/Button';
 import { SearchPanel } from '../SearchPanel/SearchPanel';
 
 interface BannerProps {
-  onSearch: (value: string) => any;
+  onSearch: (value: string) => void;
 }
 
 export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
