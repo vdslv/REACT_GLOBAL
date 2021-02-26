@@ -12,8 +12,8 @@ export const Button: React.FC<ButtonProps> = ({ type = 'button', fill, size, chi
     <button
       className={`
       ${classes.btn}
-      ${classes[fill === 'transparent' ? 'btn__transparent' : 'btn__red']}
-      ${classes[size === 'small' ? 'btn__small' : 'btn__large']}
+      ${classes[fill === 'transparent' ? 'btn--transparent' : 'btn--red']}
+      ${classes[size === 'small' ? 'btn--small' : 'btn--large']}
         `}
       type={type}
     >

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11b3a24f-f0ff-4a54-9e76-e02261292b77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/mocks/movies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/mocks/movies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/statefull/MainPage/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/statefull/MainPage/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1oHmJaFbWB5UtuZXymdJivuffE9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/reactjs_2021/webpack-build/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\reactjs_2021\webpack-build\src" />
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\reactjs_2021\webpack-build" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\src\app\modules\stateless" />
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\reactjs_2021\movie-app" />
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\reactjs_2021" />
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\src\app\shared\icons" />
+      <recent name="C:\Users\Vladyslav_Havryliak\Desktop\REACTJS_2021\movie-app\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11b3a24f-f0ff-4a54-9e76-e02261292b77" name="Default Changelist" comment="" />
+      <created>1612951819719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612951819719</updated>
+      <workItem from="1612951820957" duration="3505000" />
+      <workItem from="1612974531278" duration="1604000" />
+      <workItem from="1613032304197" duration="41000" />
+      <workItem from="1613402319224" duration="8685000" />
+      <workItem from="1613461972052" duration="94000" />
+      <workItem from="1613635280973" duration="1080000" />
+      <workItem from="1613639785981" duration="650000" />
+      <workItem from="1613641973590" duration="21812000" />
+      <workItem from="1613733979344" duration="10000" />
+      <workItem from="1613760017244" duration="6537000" />
+      <workItem from="1613925410745" duration="685000" />
+      <workItem from="1613982200860" duration="1173000" />
+      <workItem from="1614071421617" duration="17421000" />
+      <workItem from="1614092122181" duration="24366000" />
+      <workItem from="1614153279469" duration="20559000" />
+      <workItem from="1614199709371" duration="11939000" />
+      <workItem from="1614240105501" duration="3909000" />
+      <workItem from="1614249645969" duration="106000" />
+      <workItem from="1614251241781" duration="300000" />
+      <workItem from="1614264700990" duration="673000" />
+      <workItem from="1614326219442" duration="130000" />
+      <workItem from="1614349095888" duration="2999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

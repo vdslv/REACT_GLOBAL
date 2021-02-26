@@ -15,10 +15,10 @@ export const movies = [
     id: 2,
   },
   {
-    title: '21 Bridges',
+    title: 'Hamilton',
     genre: 'Action & Adventure',
-    year: 2004,
-    src: 'https://static.wikia.nocookie.net/filmguide/images/0/0b/21Bridges.jpg/revision/latest?cb=20190424150121',
+    year: 2007,
+    src: 'https://i.pinimg.com/564x/e8/83/97/e883973badd4311393e6f4202ee81174.jpg',
     id: 3,
   },
   {
@@ -31,7 +31,7 @@ export const movies = [
   {
     title: 'Cherry',
     genre: 'Action & Adventure',
-    year: 2004,
+    year: 2005,
     src: 'https://cdn.flickeringmyth.com/wp-content/uploads/2021/01/Cherry-posters-1.jpg',
     id: 5,
   },

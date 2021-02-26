@@ -12,10 +12,10 @@ export const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
   return (
     <li className={classes.card}>
       <div className={classes.card__wrapper}>
-        <div className={classes.card__wrapper__dots}>
+        <div className={classes['card__wrapper--dots']}>
           <DotsIcon />
         </div>
-        <img className={classes.card__wrapper__image} src={src} alt={title} />
+        <img className={classes['card__wrapper--image']} src={src} alt={title} />
       </div>
       <div className={classes.card__content}>
         <div>

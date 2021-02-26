@@ -18,7 +18,7 @@
 
   &__wrapper {
 
-    &__dots {
+    &--dots {
       display: none;
       border-radius: 50%;
       border: 1px solid transparent;
@@ -31,11 +31,11 @@
       cursor: pointer;
     }
 
-    &:hover .card__wrapper__dots {
+    &:hover .card__wrapper--dots {
       display: unset;
     }
 
-    &__image {
+    &--image {
       height: 37vw;
       width: 100%;
 

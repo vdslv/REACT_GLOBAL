@@ -12,7 +12,7 @@ export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
     <div className={classes.banner}>
       <div className={classes.banner__wrapper}>
         <div className={classes.banner__content}>
-          <div className={classes.banner__content__title}>
+          <div className={classes['banner__content--title']}>
             <span>
               <b>netflix</b>roulette
             </span>
@@ -20,7 +20,7 @@ export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
               + ADD MOVIE
             </Button>
           </div>
-          <div className={classes.banner__content__panel}>
+          <div className={classes['banner__content--panel']}>
             <SearchPanel onSearch={onSearch} />
           </div>
         </div>

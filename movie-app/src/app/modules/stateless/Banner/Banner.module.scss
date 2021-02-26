@@ -21,7 +21,7 @@
     position: absolute;
     top: 0;
 
-    &__panel {
+    &--panel {
       position: absolute;
       width: 100%;
       top: 25%;
@@ -29,7 +29,7 @@
       justify-content: center;
     }
 
-    &__title {
+    &--title {
       position: absolute;
       width: 100%;
       top: 3%;

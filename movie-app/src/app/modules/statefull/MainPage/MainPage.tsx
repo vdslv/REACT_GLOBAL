@@ -1,5 +1,4 @@
 import React from 'react';
-import { ErrorBoundary } from '../../../core/ErrorBoundary/ErrorBoundary';
 import classes from './MainPage.module.scss';
 import { Banner } from '../../stateless/Banner/Banner';
 import { movies } from '../../../mocks/movies';
@@ -16,7 +15,7 @@ export class MainPage extends React.Component<{}, MainPageState> {
     this.state = { moviesArr: movies };
   }
 
-  searchMovie(e: any): void {
+  searchMovie = (e: any): void => {
     e.preventDefault();
     const value = e.target[0].value;
     if (value) {
@@ -33,14 +32,14 @@ export class MainPage extends React.Component<{}, MainPageState> {
 
   render() {
     return (
-      <ErrorBoundary>
-        <div className={classes.banner}>
-          <Banner onSearch={(e) => this.searchMovie(e)} />
-        </div>
-        <div className={classes.content}>
-          <MainBody movies={this.state.moviesArr} />
-        </div>
-      </ErrorBoundary>
+        <>
+          <div className={classes.banner}>
+            <Banner onSearch={this.searchMovie} />
+          </div>
+          <div className={classes.content}>
+            <MainBody movies={this.state.moviesArr} />
+          </div>
+        </>
     );
   }
 }
