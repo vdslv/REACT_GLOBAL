@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b3a24f-f0ff-4a54-9e76-e02261292b77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/mocks/movies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/mocks/movies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/statefull/MainPage/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/statefull/MainPage/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/Banner/Banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/MovieCard/MovieCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/modules/stateless/SearchPanel/SearchPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-app/src/app/shared/components/Button/Button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +91,7 @@
       <workItem from="1614251241781" duration="300000" />
       <workItem from="1614264700990" duration="673000" />
       <workItem from="1614326219442" duration="130000" />
-      <workItem from="1614349095888" duration="2999000" />
+      <workItem from="1614349095888" duration="3531000" />
     </task>
     <servers />
   </component>

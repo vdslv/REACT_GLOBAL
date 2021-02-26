@@ -19,7 +19,7 @@ export class MainPage extends React.Component<{}, MainPageState> {
     e.preventDefault();
     const value = e.target[0].value;
     if (value) {
-      const newMovies = this.state.moviesArr.filter((movie) => movie.title.includes(value));
+      const newMovies = movies.filter((movie) => movie.title.includes(value));
       this.setState(() => {
         return { moviesArr: newMovies };
       });
