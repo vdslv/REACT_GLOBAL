@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Banner.module.scss';
-import { Button } from '../../../shared/components/Button/Button';
-import { SearchPanel } from '../SearchPanel/SearchPanel';
+import { Button } from '../../../../shared/components/Button/Button';
+import SearchPanel from './components/SearchPanel/SearchPanel';
 
 interface BannerProps {
   onSearch: (value: string) => void;

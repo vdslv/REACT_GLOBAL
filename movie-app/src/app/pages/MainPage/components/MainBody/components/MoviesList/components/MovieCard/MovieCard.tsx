@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './MovieCard.module.scss';
-import { Movie } from '../../../shared/models/Movie.model';
-import { DotsIcon } from '../../../shared/components/DotsIcon/DotsIcon';
+import { Movie } from '../../../../../../../../shared';
+import { DotsIcon } from '../../../../../../../../shared';
 
 interface MovieCardProps {
   movie: Movie;

@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './MovieList.module.scss';
-import { MovieCard } from '../MovieCard/MovieCard';
-import { Movie } from '../../../shared/models/Movie.model';
+import { MovieCard } from './components';
+import { Movie } from '../../../../../../shared';
 
 type MovieListProps = {
   movies: Movie[];

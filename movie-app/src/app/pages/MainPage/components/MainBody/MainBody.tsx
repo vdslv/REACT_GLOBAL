@@ -1,8 +1,7 @@
 import React from 'react';
 import classes from './MainBody.module.scss';
-import { SortPanel } from '../SortPanel/SortPanel';
-import { MovieList } from '../MoviesList/MovieList';
-import { Movie } from '../../../shared/models/Movie.model';
+import { MovieList, SortPanel } from './components';
+import { Movie } from '../../../../shared';
 
 interface MainBodyProps {
   movies: Movie[];

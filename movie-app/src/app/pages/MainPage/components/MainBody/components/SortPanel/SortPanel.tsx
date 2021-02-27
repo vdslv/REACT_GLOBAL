@@ -1,8 +1,8 @@
 import React from 'react';
-import { GenreFilter } from '../GenreFilter/GenreFilter';
-import { genres } from '../../../mocks/genres';
+import { GenreFilter } from './components';
+import { genres } from '../../../../../../mocks/genres';
 import classes from './SortPanel.module.scss';
-import { Dropdown } from '../../../shared/components/Dropdown/Dropdown';
+import { Dropdown } from '../../../../../../shared';
 
 export const SortPanel = () => {
   return (
@@ -13,5 +13,5 @@ export const SortPanel = () => {
         <Dropdown />
       </div>
     </div>
-  )
-}
+  );
+};
