@@ -1,9 +1,11 @@
+@import "src/app/styles/variables";
+
 .genres {
   text-decoration: none;
   display: flex;
   list-style: none;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 906px) {
     flex-direction: column;
   }
 }
@@ -11,4 +13,25 @@
 .item {
   margin-right: 30px;
   cursor: pointer;
+  position: relative;
+
+  &--selected {
+    @media only screen and (max-width: 906px) {
+      color: $light-red;
+    }
+
+    &::after {
+      border-bottom: 2px solid $light-red;
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      bottom: -70%;
+      margin: 0 auto;
+
+      @media only screen and (max-width: 906px) {
+        border-bottom: none;
+      }
+    }
+  }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Banner.module.scss';
-import { Button } from '../../../../shared/components/Button/Button';
+import { Button } from '../../../../shared';
 import SearchPanel from './components/SearchPanel/SearchPanel';
 
 interface BannerProps {

@@ -16,6 +16,11 @@
 
     @media only screen and (max-width: 780px) {
       flex-direction: column;
+      align-items: center;
+    }
+
+    &--btn {
+      width: fit-content;
     }
 
     &--input {

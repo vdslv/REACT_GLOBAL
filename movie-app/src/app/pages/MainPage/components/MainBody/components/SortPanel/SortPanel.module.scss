@@ -7,8 +7,32 @@
   justify-content: space-between;
   border-bottom: 2px solid $gray;
 
-  &__sort-by {
-    margin-right: 40px;
-    color: $gray;
+  &__wrapper {
+    display: flex;
+    
+    @media only screen and (max-width: 680px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &__sort {
+    display: flex;
+    cursor: pointer;
+
+    &--title {
+      margin-right: 40px;
+      color: $gray;
+
+      @media only screen and (max-width: 680px) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &--arrow {
+      &-rotated {
+        transform: rotate(180deg);
+      }
+    }
   }
 }
