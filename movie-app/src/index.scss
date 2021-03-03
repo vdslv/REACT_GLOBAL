@@ -23,3 +23,13 @@ ul li {
   text-decoration: none;
   list-style: none;
 }
+
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+input[type='checkbox']:checked {
+color: white;
+  filter: invert(100%) brightness(50%) sepia(100%) saturate(10000%);
+}

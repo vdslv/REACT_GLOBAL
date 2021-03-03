@@ -5,9 +5,10 @@ import SearchPanel from './components/SearchPanel/SearchPanel';
 
 interface BannerProps {
   onSearch: (value: string) => void;
+  addMovie: () => void;
 }
 
-export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
+export const Banner: React.FC<BannerProps> = ({ onSearch, addMovie }) => {
   return (
     <div className={classes.banner}>
       <div className={classes.banner__wrapper}>
@@ -16,9 +17,11 @@ export const Banner: React.FC<BannerProps> = ({ onSearch }) => {
             <span>
               <b>netflix</b>roulette
             </span>
-            <Button size={'small'} fill={'transparent'}>
-              + ADD MOVIE
-            </Button>
+            <div onClick={addMovie}>
+              <Button size={'small'} fill={'transparent'}>
+                + ADD MOVIE
+              </Button>
+            </div>
           </div>
           <div className={classes['banner__content--panel']}>
             <SearchPanel onSearch={onSearch} />

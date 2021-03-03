@@ -1,0 +1,27 @@
+@import "src/app/styles/variables";
+@import "src/app/styles/mixins";
+
+.movie-id {
+  padding-bottom: 20px;
+
+  &--number {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+  &--title {
+    @include default-label;
+  }
+}
+
+.form {
+  &__buttons {
+    margin-top: 50px;
+    text-align: right;
+
+   & button:first-of-type {
+      margin-right: 20px;
+    }
+  }
+}

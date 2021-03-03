@@ -1,0 +1,18 @@
+@import "src/app/styles/mixins";
+
+.movie {
+
+  &--title {
+    @include modal-header;
+  }
+
+  &__question {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  &__confirm-btn {
+    margin-top: 45px;
+    text-align: right;
+  }
+}

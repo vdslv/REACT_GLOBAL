@@ -5,13 +5,15 @@ import { Movie } from '../../../../../../shared';
 
 type MovieListProps = {
   movies: Movie[];
+  showEditModal: () => void;
+  showDeleteModal: () => void;
 };
 
-export const MovieList: React.FC<MovieListProps> = ({ movies }) => {
+export const MovieList: React.FC<MovieListProps> = ({ movies, showEditModal, showDeleteModal }) => {
   return (
     <ul className={classes.list}>
       {movies.map((movie) => (
-        <MovieCard key={movie.id} movie={movie} />
+        <MovieCard showDeleteModal={showDeleteModal} showEditModal={showEditModal} key={movie.id} movie={movie} />
       ))}
     </ul>
   );
