@@ -4,4 +4,6 @@ export interface Movie {
   year: number;
   src: string;
   id: number;
+  overview?: string;
+  runtime?: string;
 }

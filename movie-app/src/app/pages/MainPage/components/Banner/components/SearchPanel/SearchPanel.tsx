@@ -1,7 +1,6 @@
 import React, { ChangeEvent } from 'react';
 import classes from './SearchPanel.module.scss';
-import { Input } from '../../../../../../shared/components/Input/Input';
-import { Button } from '../../../../../../shared/components/Button/Button';
+import { Button, Input } from '../../../../../../shared';
 
 interface SearchPanelProps {
   onSearch: (value: string) => void;
@@ -14,8 +13,11 @@ export default class SearchPanel extends React.Component<SearchPanelProps, { inp
   }
 
   handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault();
     this.setState({ inputValue: e.target.value });
+  };
+
+  onSearch = () => {
+    this.props.onSearch(this.state.inputValue);
   };
 
   render() {
@@ -31,7 +33,7 @@ export default class SearchPanel extends React.Component<SearchPanelProps, { inp
               bg={'transparent'}
             />
           </div>
-          <div onClick={() => this.props.onSearch(this.state.inputValue)}>
+          <div className={classes['panel__wrapper--btn']} onClick={this.onSearch}>
             <Button size={'large'} fill={'red'} type={'button'}>
               SEARCH
             </Button>

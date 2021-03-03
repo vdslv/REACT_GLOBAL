@@ -1,0 +1,57 @@
+@import "src/app/styles/variables";
+@import "src/app/styles/mixins";
+
+.modal {
+  background-color: rgba(10,10,10,0.6);
+  backdrop-filter: blur(9px);
+  color: white;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__scroll {
+    max-height: 100%;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  }
+
+  &__wrapper {
+    width: 600px;
+    max-height: 80%;
+    background-color: $main-color;
+    margin: 5vh;
+
+    @media only screen and (max-width: 680px) {
+      width: 330px;
+    }
+
+    &--children {
+      padding: 0 60px 40px;
+    }
+
+    &--title {
+      @include modal-header;
+    }
+
+    &--close {
+      text-align: right;
+      font-size: 28px;
+      line-height: 1;
+      padding: 20px;
+
+      &-icon {
+        cursor: pointer;
+      }
+    }
+  }
+}

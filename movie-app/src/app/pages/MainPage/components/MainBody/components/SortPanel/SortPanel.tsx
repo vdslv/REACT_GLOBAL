@@ -1,17 +1,52 @@
 import React from 'react';
 import { GenreFilter } from './components';
-import { genres } from '../../../../../../mocks/genres';
 import classes from './SortPanel.module.scss';
-import { Dropdown } from '../../../../../../shared';
+import { genres } from '../../../../../../mocks';
+import { Arrow } from '../../../../../../shared/components/Arrow/Arrow';
 
-export const SortPanel = () => {
-  return (
-    <div className={classes['sort-panel']}>
-      <GenreFilter genres={genres} />
-      <div>
-        <span className={classes['sort-panel__sort-by']}>SORT BY</span>
-        <Dropdown />
+interface SortPanelProps {
+  sortBy: (value: boolean) => void;
+  filterGenre: (value: string) => void;
+  selectedGenre: string;
+}
+
+interface SortPanelState {
+  opened: boolean;
+}
+
+export class SortPanel extends React.Component<SortPanelProps, SortPanelState> {
+  constructor(props: SortPanelProps) {
+    super(props);
+    this.state = { opened: false };
+  }
+
+  sortByDate = () => {
+    this.setState((prevState) => {
+      this.props.sortBy(prevState.opened);
+      return {
+        opened: !prevState.opened,
+      };
+    });
+  };
+
+  render() {
+    return (
+      <div className={classes['sort-panel']}>
+        <GenreFilter selectedGenre={this.props.selectedGenre} genreFilter={this.props.filterGenre} genres={genres} />
+        <div className={classes['sort-panel__wrapper']}>
+          <span className={classes['sort-panel__sort--title']}>SORT BY</span>
+          <div className={classes['sort-panel__sort']} onClick={this.sortByDate}>
+            <span>RELEASE DATE</span>
+            <div
+              className={`${classes['sort-panel__sort--arrow']} ${
+                this.state.opened ? classes['sort-panel__sort--arrow-rotated'] : ''
+              }`}
+            >
+              <Arrow />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}

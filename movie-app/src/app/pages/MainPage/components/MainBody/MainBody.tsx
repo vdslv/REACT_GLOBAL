@@ -5,16 +5,28 @@ import { Movie } from '../../../../shared';
 
 interface MainBodyProps {
   movies: Movie[];
+  sortBy: (value: boolean) => void;
+  filterGenre: (value: string) => void;
+  selectedGenre: string;
+  showEditModal: () => void;
+  showDeleteModal: () => void;
 }
 
-export const MainBody: React.FC<MainBodyProps> = ({ movies }) => {
+export const MainBody: React.FC<MainBodyProps> = ({
+  movies,
+  sortBy,
+  filterGenre,
+  selectedGenre,
+  showEditModal,
+  showDeleteModal,
+}) => {
   return (
     <div className={classes.main}>
-      <SortPanel />
+      <SortPanel selectedGenre={selectedGenre} filterGenre={filterGenre} sortBy={sortBy} />
       <p className={classes.main__quantity}>
         <b>{movies.length}</b> movies found
       </p>
-      <MovieList movies={movies} />
+      <MovieList showEditModal={showEditModal} showDeleteModal={showDeleteModal} movies={movies} />
     </div>
   );
 };

@@ -1,3 +1,5 @@
+@import "src/app/styles/variables";
+
 .icon {
   display: flex;
   align-items: center;
@@ -6,5 +8,48 @@
 
   svg {
     fill: white;
+  }
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+
+  &__close {
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 3px;
+
+    span {
+      padding: 0 7px;
+      cursor: pointer;
+    }
+  }
+
+  &__modal {
+    cursor: auto;
+    position: absolute;
+    top: -2px;
+    left: -400%;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    background-color: $main-color;
+    width: 540%;
+    padding: 5px 0 10px;
+    border-radius: 5px;
+
+    p {
+      padding: 7px 0;
+
+      span {
+        padding-left: 20px;
+      }
+
+      &:hover {
+        background-color: $light-red;
+        cursor: pointer;
+      }
+    }
   }
 }
