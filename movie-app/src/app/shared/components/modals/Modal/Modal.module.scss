@@ -48,7 +48,10 @@
       font-size: 28px;
       line-height: 1;
       padding: 20px;
-      cursor: pointer;
+
+      &-icon {
+        cursor: pointer;
+      }
     }
   }
 }

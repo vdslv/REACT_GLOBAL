@@ -24,8 +24,10 @@ export default class Modal extends React.Component<ModalProps, {}> {
       <div className={classes.modal}>
         <div className={classes.modal__scroll}>
           <div className={classes.modal__wrapper}>
-            <p onClick={this.props.closeModal} className={classes['modal__wrapper--close']}>
-              &#10006;
+            <p className={classes['modal__wrapper--close']}>
+              <span className={classes['modal__wrapper--close-icon']} onClick={this.props.closeModal}>
+                &#10006;
+              </span>
             </p>
             <div className={classes['modal__wrapper--children']}>
               <p className={classes['modal__wrapper--title']}>{this.props.title}</p>

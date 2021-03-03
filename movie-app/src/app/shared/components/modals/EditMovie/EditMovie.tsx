@@ -1,10 +1,11 @@
 import React from 'react';
 import { MovieForm } from '../../MovieForm/MovieForm';
+import { Movie } from '../../../models';
 
-export const EditMovie: React.FC<{ movieId?: number }> = ({ movieId = null }) => {
+export const EditMovie: React.FC<{ movie: Movie }> = ({ movie }) => {
   return (
     <>
-      <MovieForm type={'save'} movieId={123523} />
+      <MovieForm movie={movie} type={'save'} movieId={movie.id} />
     </>
   );
 };

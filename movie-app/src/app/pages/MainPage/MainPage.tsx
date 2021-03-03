@@ -11,6 +11,7 @@ interface MainPageState {
   selectedGenre: string;
   mode: Modes;
   modalTitle: string;
+  movieInEdit: Movie;
 }
 
 export class MainPage extends React.Component<{}, MainPageState> {
@@ -21,6 +22,7 @@ export class MainPage extends React.Component<{}, MainPageState> {
       mode: Modes.OVERVIEW,
       moviesArr: movies.sort((a, b) => b.year - a.year),
       selectedGenre: 'ALL',
+      movieInEdit: movies[0],
     };
   }
 
@@ -110,7 +112,7 @@ export class MainPage extends React.Component<{}, MainPageState> {
         {this.state.mode !== Modes.OVERVIEW && (
           <Modal closeModal={this.closeModal} title={this.state.modalTitle}>
             {this.state.mode === Modes.DELETE && <DeleteMovie />}
-            {this.state.mode === Modes.EDIT && <EditMovie />}
+            {this.state.mode === Modes.EDIT && <EditMovie movie={this.state.movieInEdit} />}
             {this.state.mode === Modes.ADD && <AddMovie />}
           </Modal>
         )}

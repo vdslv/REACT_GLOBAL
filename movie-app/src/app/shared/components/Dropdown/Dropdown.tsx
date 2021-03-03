@@ -7,6 +7,7 @@ interface DropdownCheckboxProps {
   options: Option[];
   onChange?: (value: string) => void;
   label?: string;
+  selectedValues?: string[];
 }
 
 const style = {
@@ -56,6 +57,7 @@ export default class Dropdown extends React.Component<DropdownCheckboxProps, any
       <div className={classes.dropdown}>
         <label className={classes.label}>{this.props.label}</label>
         <Multiselect
+          selectedValues={this.props?.selectedValues}
           id={'custom_css'}
           hidePlaceholder={true}
           closeOnSelect={false}

@@ -5,6 +5,8 @@ export const movies = [
     year: 2004,
     src: 'https://images.moviepostershop.com/replicas-movie-poster-1000778791.jpg',
     id: 1,
+    overview: 'Great Movie',
+    runtime: '1.23',
   },
   {
     title: 'Moonlight',
@@ -13,6 +15,8 @@ export const movies = [
     src:
       'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217',
     id: 2,
+    overview: 'Not Bad Movie',
+    runtime: '1.27',
   },
   {
     title: 'Hamilton',
@@ -20,6 +24,8 @@ export const movies = [
     year: 2007,
     src: 'https://i.pinimg.com/564x/e8/83/97/e883973badd4311393e6f4202ee81174.jpg',
     id: 3,
+    overview: 'Fantastic Movie',
+    runtime: '1.44',
   },
   {
     title: 'Happening',
@@ -27,6 +33,8 @@ export const movies = [
     year: 2004,
     src: 'https://cdn.pastemagazine.com/www/articles/16-misleading-movie-posters-the-happening.jpg',
     id: 4,
+    overview: 'Tratatatata',
+    runtime: '2.3',
   },
   {
     title: 'Cherry',
@@ -34,6 +42,8 @@ export const movies = [
     year: 2005,
     src: 'https://cdn.flickeringmyth.com/wp-content/uploads/2021/01/Cherry-posters-1.jpg',
     id: 5,
+    overview: 'Berry Cherry Movie',
+    runtime: '2.1',
   },
   {
     title: 'Terminator',
@@ -42,6 +52,8 @@ export const movies = [
     src:
       'https://cdn.shopify.com/s/files/1/0057/3728/3618/products/0ef9ae788e37c28023f50540549919e3_ce9c2c0a-d08e-4218-b313-6942e22efc15_240x360_crop_center.progressive.jpg?v=1573585426',
     id: 6,
+    overview: 'Legendary Movie',
+    runtime: '2.0',
   },
   {
     title: 'Replicas',
@@ -49,6 +61,8 @@ export const movies = [
     year: 2004,
     src: 'https://images.moviepostershop.com/replicas-movie-poster-1000778791.jpg',
     id: 7,
+    overview: 'Basic movie',
+    runtime: '1.8',
   },
   {
     title: 'Replicas',
@@ -56,5 +70,7 @@ export const movies = [
     year: 2004,
     src: 'https://images.moviepostershop.com/replicas-movie-poster-1000778791.jpg',
     id: 8,
+    overview: 'OlenDelon',
+    runtime: '2.2',
   },
 ];

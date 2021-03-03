@@ -8,6 +8,7 @@ interface InputProps {
   handleInputChange?: (e: ChangeEvent<HTMLInputElement>) => void;
   readonly?: boolean;
   label?: string;
+  value?: string;
 }
 
 export const Input: React.FC<InputProps> = ({
@@ -17,11 +18,13 @@ export const Input: React.FC<InputProps> = ({
   bg,
   handleInputChange,
   readonly = false,
+  value,
 }) => {
   return (
     <div className={classes[label && 'input__wrapper']}>
       {label && <label className={classes.input__label}>{label}</label>}
       <input
+        defaultValue={value}
         readOnly={readonly}
         onChange={handleInputChange && handleInputChange}
         placeholder={placeholder}
